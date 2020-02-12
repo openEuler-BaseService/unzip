@@ -560,6 +560,7 @@ typedef struct _UzpOpts {
     int cflxflag;       /* -^: allow control chars in extracted filenames */
 #endif
 #endif /* !FUNZIP */
+    unsigned long max_overlaps;  /* Maximum number of overlaps allowed */
 } UzpOpts;
 
 /* intended to be a private struct: */
